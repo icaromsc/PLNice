@@ -1,0 +1,23 @@
+Genetic algorithms with permutation coding for multiple sequence alignment.
+
+Multiple sequence alignment (MSA) is one of the topics of bio informatics that
+has seriously been researched. It is known as NP-complete problem. It is also
+considered as one of the most important and daunting tasks in computational
+biology. Concerning this a wide number of heuristic algorithms have been proposed
+to find optimal alignment. Among these heuristic algorithms are genetic
+algorithms (GA). The GA has mainly two major weaknesses: it is time consuming and
+can cause local minima. One of the significant aspects in the GA process in MSA
+is to maximize the similarities between sequences by adding and shuffling the
+gaps of Solution Coding (SC). Several ways for SC have been introduced. One of
+them is the Permutation Coding (PC). We propose a hybrid algorithm based on
+genetic algorithms (GAs) with a PC and 2-opt algorithm. The PC helps to code the 
+MSA solution which maximizes the gain of resources, reliability and diversity of 
+GA. The use of the PC opens the area by applying all functions over permutations 
+for MSA. Thus, we suggest an algorithm to calculate the scoring function for
+multiple alignments based on PC, which is used as fitness function. The time
+complexity of the GA is reduced by using this algorithm. Our GA is implemented
+with different selections strategies and different crossovers. The probability of
+crossover and mutation is set as one strategy. Relevant patents have been probed 
+in the topic.
+
+

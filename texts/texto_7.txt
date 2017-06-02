@@ -1,0 +1,24 @@
+Vertical decomposition with Genetic Algorithm for Multiple Sequence Alignment.
+
+BACKGROUND: Many Bioinformatics studies begin with a multiple sequence alignment 
+as the foundation for their research. This is because multiple sequence alignment
+can be a useful technique for studying molecular evolution and analyzing sequence
+structure relationships.
+RESULTS: In this paper, we have proposed a Vertical Decomposition with Genetic
+Algorithm (VDGA) for Multiple Sequence Alignment (MSA). In VDGA, we divide the
+sequences vertically into two or more subsequences, and then solve them
+individually using a guide tree approach. Finally, we combine all the
+subsequences to generate a new multiple sequence alignment. This technique is
+applied on the solutions of the initial generation and of each child generation
+within VDGA. We have used two mechanisms to generate an initial population in
+this research: the first mechanism is to generate guide trees with randomly
+selected sequences and the second is shuffling the sequences inside such trees.
+Two different genetic operators have been implemented with VDGA. To test the
+performance of our algorithm, we have compared it with existing well-known
+methods, namely PRRP, CLUSTALX, DIALIGN, HMMT, SB_PIMA, ML_PIMA, MULTALIGN, and
+PILEUP8, and also other methods, based on Genetic Algorithms (GA), such as SAGA, 
+MSA-GA and RBT-GA, by solving a number of benchmark datasets from BAliBase 2.0.
+CONCLUSIONS: The experimental results showed that the VDGA with three vertical
+divisions was the most successful variant for most of the test cases in
+comparison to other divisions considered with VDGA. The experimental results also
+confirmed that VDGA outperformed the other methods considered in this research.

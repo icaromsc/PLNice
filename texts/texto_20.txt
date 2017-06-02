@@ -1,0 +1,20 @@
+Efficient and Accurate OTU Clustering with GPU-Based Sequence Alignment and Dynamic Dendrogram Cutting.
+
+De novo clustering is a popular technique to perform taxonomic profiling of a
+microbial community by grouping 16S rRNA amplicon reads into operational
+taxonomic units (OTUs). In this work, we introduce a new dendrogram-based OTU
+clustering pipeline called CRiSPy. The key idea used in CRiSPy to improve
+clustering accuracy is the application of an anomaly detection technique to
+obtain a dynamic distance cutoff instead of using the de facto value of 97
+percent sequence similarity as in most existing OTU clustering pipelines. This
+technique works by detecting an abrupt change in the merging heights of a
+dendrogram. To produce the output dendrograms, CRiSPy employs the OTU
+hierarchical clustering approach that is computed on a genetic distance matrix
+derived from an all-against-all read comparison by pairwise sequence alignment.
+However, most existing dendrogram-based tools have difficulty processing datasets
+larger than 10,000 unique reads due to high computational complexity. We address 
+this difficulty by developing two efficient algorithms for CRiSPy: a
+compute-efficient GPU-accelerated parallel algorithm for pairwise distance matrix
+computation and a memory-efficient hierarchical clustering algorithm. Our
+experiments on various datasets with distinct attributes show that CRiSPy is able
+to produce more accurate OTU groupings than most OTU clustering applications.

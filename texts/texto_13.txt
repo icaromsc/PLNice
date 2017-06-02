@@ -1,0 +1,13 @@
+Nucleotide sequence alignment using sparse coding and belief propagation.
+
+Advances in DNA information extraction techniques have led to huge sequenced
+genomes from organisms spanning the tree of life. This increasing amount of
+genomic information requires tools for comparison of the nucleotide sequences. In
+this paper, we propose a novel nucleotide sequence alignment method based on
+sparse coding and belief propagation to compare the similarity of the nucleotide 
+sequences. We used the neighbors of each nucleotide as features, and then we
+employed sparse coding to find a set of candidate nucleotides. To select optimum 
+matches, belief propagation was subsequently applied to these candidate
+nucleotides. Experimental results show that the proposed approach is able to
+robustly align nucleotide sequences and is competitive to SOAPaligner [1] and BWA
+[2].

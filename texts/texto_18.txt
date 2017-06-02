@@ -1,0 +1,19 @@
+Sequence comparison alignment-free approach based on suffix tree and L-words frequency.
+
+The vast majority of methods available for sequence comparison rely on a first
+sequence alignment step, which requires a number of assumptions on evolutionary
+history and is sometimes very difficult or impossible to perform due to the
+abundance of gaps (insertions/deletions). In such cases, an alternative
+alignment-free method would prove valuable. Our method starts by a computation of
+a generalized suffix tree of all sequences, which is completed in linear time.
+Using this tree, the frequency of all possible words with a preset length
+L-L-words--in each sequence is rapidly calculated. Based on the L-words frequency
+profile of each sequence, a pairwise standard Euclidean distance is then computed
+producing a symmetric genetic distance matrix, which can be used to generate a
+neighbor joining dendrogram or a multidimensional scaling graph. We present an
+improvement to word counting alignment-free approaches for sequence comparison,
+by determining a single optimal word length and combining suffix tree structures 
+to the word counting tasks. Our approach is, thus, a fast and simple application 
+that proved to be efficient and powerful when applied to mitochondrial genomes.
+The algorithm was implemented in Python language and is freely available on the
+web.

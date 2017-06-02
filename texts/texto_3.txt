@@ -1,0 +1,13 @@
+﻿A survey of sequence alignment algorithms for next-generation sequencing.
+
+Rapidly evolving sequencing technologies produce data on an unparalleled scale. A
+central challenge to the analysis of this data is sequence alignment, whereby
+sequence reads must be compared to a reference. A wide variety of alignment
+algorithms and software have been subsequently developed over the past two years.
+In this article, we will systematically review the current development of these
+algorithms and introduce their practical applications on different types of
+experimental data. We come to the conclusion that short-read alignment is no
+longer the bottleneck of data analyses. We also consider future development of
+alignment algorithms with respect to emerging long sequence reads and the
+prospect of cloud computing.
+

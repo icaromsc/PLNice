@@ -1,0 +1,22 @@
+Design of multiple sequence alignment algorithms on parallel, distributed memory supercomputers.
+
+The challenge of comparing two or more genomes that have undergone recombination 
+and substantial amounts of segmental loss and gain has recently been addressed
+for small numbers of genomes. However, datasets of hundreds of genomes are now
+common and their sizes will only increase in the future. Multiple sequence
+alignment of hundreds of genomes remains an intractable problem due to quadratic 
+increases in compute time and memory footprint. To date, most alignment
+algorithms are designed for commodity clusters without parallelism. Hence, we
+propose the design of a multiple sequence alignment algorithm on massively
+parallel, distributed memory supercomputers to enable research into comparative
+genomics on large data sets. Following the methodology of the sequential
+progressiveMauve algorithm, we design data structures including sequences and
+sorted k-mer lists on the IBM Blue Gene/P supercomputer (BG/P). Preliminary
+results show that we can reduce the memory footprint so that we can potentially
+align over 250 bacterial genomes on a single BG/P compute node. We verify our
+results on a dataset of E.coli, Shigella and S.pneumoniae genomes. Our
+implementation returns results matching those of the original algorithm but in
+1/2 the time and with 1/4 the memory footprint for scaffold building. In this
+study, we have laid the basis for multiple sequence alignment of large-scale
+datasets on a massively parallel, distributed memory supercomputer, thus enabling
+comparison of hundreds instead of a few genome sequences within reasonable time.

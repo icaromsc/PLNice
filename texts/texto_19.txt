@@ -1,0 +1,24 @@
+Multi-objective pairwise RNA sequence alignment.
+
+MOTIVATION: With an increase in the number of known biological functions of
+non-coding RNAs, the importance of RNA sequence alignment has risen. RNA sequence
+alignment problem has been investigated by many researchers as a mono-objective
+optimization problem where contributions from sequence similarity and secondary
+structure are taken into account through a single objective function. Since there
+is a trade-off between these two objective functions, usually we cannot obtain a 
+single solution that has both the best sequence similarity score and the best
+structure score simultaneously. Multi-objective optimization is a widely used
+framework for the optimization problems with conflicting objective functions. So 
+far, no one has examined how good alignments we can obtain by applying
+multi-objective optimization to structural RNA sequence alignment problem.
+RESULTS: We developed a pairwise RNA sequence alignment program, Cofolga2mo,
+based on multi-objective genetic algorithm (MOGA). We tested Cofolga2mo with a
+benchmark dataset which includes sequence pairs with a wide range of sequence
+identity, and we obtained at most 100 alignments for each inputted RNA sequence
+pair as an approximate set of weak Pareto optimal solutions. We found that the
+alignments in the approximate set give benchmark results comparable to those
+obtained by the state-of-the-art mono-objective RNA alignment algorithms.
+Moreover, we found that our algorithm is efficient in both time and memory usage 
+compared to the other methods.
+AVAILABILITY: Our MOGA programs for structural RNA sequence alignment can be
+downloaded at http://rna.eit.hirosaki-u.ac.jp/cofolga2mo/.

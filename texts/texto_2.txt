@@ -1,0 +1,29 @@
+
+1. IEEE/ACM Trans Comput Biol Bioinform. 2013 Jul-Aug;10(4):884-96. doi:
+10.1109/TCBB.2013.102.
+
+A knowledge-based multiple-sequence alignment algorithm.
+
+Nguyen KD(1), Pan Y(2).
+
+Author information: 
+(1)Clayton State University, Morrow. (2)Georgia State University, Atlanta.
+
+A common and cost-effective mechanism to identify the functionalities,
+structures, or relationships between species is multiple-sequence alignment, in
+which DNA/RNA/protein sequences are arranged and aligned so that similarities
+between sequences are clustered together. Correctly identifying and aligning
+these sequence biological similarities help from unwinding the mystery of species
+evolution to drug design. We present our knowledge-based multiple sequence
+alignment (KB-MSA) technique that utilizes the existing knowledge databases such 
+as SWISSPROT, GENBANK, or HOMSTRAD to provide a more realistic and reliable
+sequence alignment. We also provide a modified version of this algorithm (CB-MSA)
+that utilizes the sequence consistency information when sequence knowledge
+databases are not available. Our benchmark tests on BAliBASE, PREFAB, HOMSTRAD,
+and SABMARK references show accuracy improvements up to 10 percent on twilight
+data sets against many leading alignment tools such as ISPALIGN, PADT, CLUSTALW, 
+MAFFT, PROBCONS, and T-COFFEE.
+
+DOI: 10.1109/TCBB.2013.102 
+PMID: 24334383  [Indexed for MEDLINE]
+

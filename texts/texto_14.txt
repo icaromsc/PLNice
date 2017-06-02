@@ -1,0 +1,27 @@
+Image correlation method for DNA sequence alignment.
+
+The complexity of searches and the volume of genomic data make sequence alignment
+one of bioinformatics most active research areas. New alignment approaches have
+incorporated digital signal processing techniques. Among these, correlation
+methods are highly sensitive. This paper proposes a novel sequence alignment
+method based on 2-dimensional images, where each nucleic acid base is represented
+as a fixed gray intensity pixel. Query and known database sequences are coded to 
+their pixel representation and sequence alignment is handled as object
+recognition in a scene problem. Query and database become object and scene,
+respectively. An image correlation process is carried out in order to search for 
+the best match between them. Given that this procedure can be implemented in an
+optical correlator, the correlation could eventually be accomplished at light
+speed. This paper shows an initial research stage where results were "digitally" 
+obtained by simulating an optical correlation of DNA sequences represented as
+images. A total of 303 queries (variable lengths from 50 to 4500 base pairs) and 
+100 scenes represented by 100 x 100 images each (in total, one million base pair 
+database) were considered for the image correlation analysis. The results showed 
+that correlations reached very high sensitivity (99.01%), specificity (98.99%)
+and outperformed BLAST when mutation numbers increased. However, digital
+correlation processes were hundred times slower than BLAST. We are currently
+starting an initiative to evaluate the correlation speed process of a real
+experimental optical correlator. By doing this, we expect to fully exploit
+optical correlation light properties. As the optical correlator works jointly
+with the computer, digital algorithms should also be optimized. The results
+presented in this paper are encouraging and support the study of image
+correlation methods on sequence alignment.

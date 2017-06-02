@@ -1,0 +1,35 @@
+Fast online and index-based algorithms for approximate search of RNA
+sequence-structure patterns.
+
+BACKGROUND: It is well known that the search for homologous RNAs is more
+effective if both sequence and structure information is incorporated into the
+search. However, current tools for searching with RNA sequence-structure patterns
+cannot fully handle mutations occurring on both these levels or are simply not
+fast enough for searching large sequence databases because of the high
+computational costs of the underlying sequence-structure alignment problem.
+RESULTS: We present new fast index-based and online algorithms for approximate
+matching of RNA sequence-structure patterns supporting a full set of edit
+operations on single bases and base pairs. Our methods efficiently compute
+semi-global alignments of structural RNA patterns and substrings of the target
+sequence whose costs satisfy a user-defined sequence-structure edit distance
+threshold. For this purpose, we introduce a new computing scheme to optimally
+reuse the entries of the required dynamic programming matrices for all substrings
+and combine it with a technique for avoiding the alignment computation of
+non-matching substrings. Our new index-based methods exploit suffix arrays
+preprocessed from the target database and achieve running times that are
+sublinear in the size of the searched sequences. To support the description of
+RNA molecules that fold into complex secondary structures with multiple ordered
+sequence-structure patterns, we use fast algorithms for the local or global
+chaining of approximate sequence-structure pattern matches. The chaining step
+removes spurious matches from the set of intermediate results, in particular of
+patterns with little specificity. In benchmark experiments on the Rfam database, 
+our improved online algorithm is faster than the best previous method by up to
+factor 45. Our best new index-based algorithm achieves a speedup of factor 560.
+CONCLUSIONS: The presented methods achieve considerable speedups compared to the 
+best previous method. This, together with the expected sublinear running time of 
+the presented index-based algorithms, allows for the first time approximate
+matching of RNA sequence-structure patterns in large sequence databases. Beyond
+the algorithmic contributions, we provide with RaligNAtor a robust and well
+documented open-source software package implementing the algorithms presented in 
+this manuscript. The RaligNAtor software is available at
+http://www.zbh.uni-hamburg.de/ralignator.
