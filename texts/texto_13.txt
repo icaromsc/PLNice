@@ -9,5 +9,4 @@ sequences. We used the neighbors of each nucleotide as features, and then we
 employed sparse coding to find a set of candidate nucleotides. To select optimum 
 matches, belief propagation was subsequently applied to these candidate
 nucleotides. Experimental results show that the proposed approach is able to
-robustly align nucleotide sequences and is competitive to SOAPaligner [1] and BWA
-[2].
+robustly align nucleotide sequences and is competitive to SOAPaligner and BWA.
