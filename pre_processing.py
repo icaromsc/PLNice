@@ -120,6 +120,18 @@ tf=sorted(tf, key=lambda x: x[1], reverse=True)
 viewMatrix(tf)
 v=sorted(ranq_tf, key=lambda x: x[1], reverse=True)
 viewMatrix(v)
+
+#termos dos colegas
+group_terms=['radiolog','imag','student','medic','report','radiograph',
+             'radiat','dose','clinic','patient', 'system','molecule',
+             'protein','compounds','flexible','analysis','shape','set',
+             'format','activity','chemical','part','sequenc','align',
+             'algorithm','base','structur','rna','multipl','genom' ,'comput','optim','match'
+             ]
+group_tf=myTF(group_terms,processeds)
+viewMatrix(group_tf)
+
+
 #from operator import itemgetter
 #print sorted(.items(), key=itemgetter(1))
 
