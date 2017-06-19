@@ -1,13 +1,1 @@
-A bit-parallel dynamic programming algorithm suitable for DNA sequence alignment.
-
-Myers' elegant and powerful bit-parallel dynamic programming algorithm for
-approximate string matching has a restriction that the query length should be
-within the word size of the computer, typically 64. We propose a modification of 
-Myers' algorithm, in which the modification has a restriction not on the query
-length but on the maximum number of mismatches (substitutions, insertions, or
-deletions), which should be less than half of the word size. The time complexity 
-is O(m log |S|), where m is the query length and |S| is the size of the alphabet 
-S. Thus, it is particularly suited for sequences on a small alphabet such as DNA 
-sequences. In particular, it is useful in quickly extending a large number of
-seed alignments against a reference genome for high-throughput short-read data
-produced by next-generation DNA sequencers.
+A bit - parallel dynam program algorithm suitabl for DNA sequenc align . Myer ' eleg and power bit - parallel dynam program algorithm for approxim string match ha a restrict that the queri length should be within the word size of the comput , typic 64 . We propos a modif of Myer ' algorithm , in which the modif ha a restrict not on the queri length but on the maximum number of mismatch ( substitut , insert , or delet ), which should be less than half of the word size . The time complex is O ( m log | S |), where m is the queri length and | S | is the size of the alphabet S . Thu , it is particularli suit for sequenc on a small alphabet such as DNA sequenc . In particular , it is use in quickli extend a larg number of seed align against a refer genom for high - throughput short - read data produc by next - gener DNA sequenc .

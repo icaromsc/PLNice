@@ -1,11 +1,1 @@
-RNA-Pareto: interactive analysis of Pareto-optimal RNA sequence-structure alignments.
-
-Incorporating secondary structure information into the alignment process improves
-the quality of RNA sequence alignments. Instead of using fixed weighting
-parameters, sequence and structure components can be treated as different
-objectives and optimized simultaneously. The result is not a single, but a
-Pareto-set of equally optimal solutions, which all represent different possible
-weighting parameters. We now provide the interactive graphical software tool
-RNA-Pareto, which allows a direct inspection of all feasible results to the
-pairwise RNA sequence-structure alignment problem and greatly facilitates the
-exploration of the optimal solution set.
+RNA - Pareto : interact analysi of Pareto - optim RNA sequenc - structur align . Incorpor secondari structur inform into the align process improv the qualiti of RNA sequenc align . Instead of use fix weight paramet , sequenc and structur compon can be treat as differ object and optim simultan . The result is not a singl , but a Pareto - set of equal optim solut , which all repres differ possibl weight paramet . We now provid the interact graphic softwar tool RNA - Pareto , which allow a direct inspect of all feasibl result to the pairwis RNA sequenc - structur align problem and greatli facilit the explor of the optim solut set .

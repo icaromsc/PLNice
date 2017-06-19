@@ -1,24 +1,13 @@
-Vertical decomposition with Genetic Algorithm for Multiple Sequence Alignment.
+Vertic decomposit with Genet Algorithm for Multipl Sequenc Align .
+BACKGROUND : Mani Bioinformat studi begin with a multipl sequenc align as the foundat for their research .
+Thi is becaus multipl sequenc align can be a use techniqu for studi molecular evolut and analyz sequenc structur relationship .
+RESULT : In thi paper , we have propos a Vertic Decomposit with Genet Algorithm ( VDGA ) for Multipl Sequenc Align ( MSA ).
+In VDGA , we divid the sequenc vertic into two or more subsequ , and then solv them individu use a guid tree approach .
+Final , we combin all the subsequ to gener a new multipl sequenc align .
+Thi techniqu is appli on the solut of the initi gener and of each child gener within VDGA .
+We have use two mechan to gener an initi popul in thi research : the first mechan is to gener guid tree with randomli select sequenc and the second is shuffl the sequenc insid such tree .
+Two differ genet oper have been implement with VDGA .
+To test the perform of our algorithm , we have compar it with exist well - known method , name PRRP , CLUSTALX , DIALIGN , HMMT , SB_PIMA , ML_PIMA , MULTALIGN , and PILEUP8 , and also other method , base on Genet Algorithm ( GA ), such as SAGA , MSA - GA and RBT - GA , by solv a number of benchmark dataset from BAliBas 2 . 0 .
+CONCLUS : The experiment result show that the VDGA with three vertic divis wa the most success variant for most of the test case in comparison to other divis consid with VDGA .
+The experiment result also confirm that VDGA outperform the other method consid in thi research .
 
-BACKGROUND: Many Bioinformatics studies begin with a multiple sequence alignment 
-as the foundation for their research. This is because multiple sequence alignment
-can be a useful technique for studying molecular evolution and analyzing sequence
-structure relationships.
-RESULTS: In this paper, we have proposed a Vertical Decomposition with Genetic
-Algorithm (VDGA) for Multiple Sequence Alignment (MSA). In VDGA, we divide the
-sequences vertically into two or more subsequences, and then solve them
-individually using a guide tree approach. Finally, we combine all the
-subsequences to generate a new multiple sequence alignment. This technique is
-applied on the solutions of the initial generation and of each child generation
-within VDGA. We have used two mechanisms to generate an initial population in
-this research: the first mechanism is to generate guide trees with randomly
-selected sequences and the second is shuffling the sequences inside such trees.
-Two different genetic operators have been implemented with VDGA. To test the
-performance of our algorithm, we have compared it with existing well-known
-methods, namely PRRP, CLUSTALX, DIALIGN, HMMT, SB_PIMA, ML_PIMA, MULTALIGN, and
-PILEUP8, and also other methods, based on Genetic Algorithms (GA), such as SAGA, 
-MSA-GA and RBT-GA, by solving a number of benchmark datasets from BAliBase 2.0.
-CONCLUSIONS: The experimental results showed that the VDGA with three vertical
-divisions was the most successful variant for most of the test cases in
-comparison to other divisions considered with VDGA. The experimental results also
-confirmed that VDGA outperformed the other methods considered in this research.

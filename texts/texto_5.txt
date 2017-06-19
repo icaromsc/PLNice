@@ -1,23 +1,17 @@
-Genetic algorithms with permutation coding for multiple sequence alignment.
-
-Multiple sequence alignment (MSA) is one of the topics of bio informatics that
-has seriously been researched. It is known as NP-complete problem. It is also
-considered as one of the most important and daunting tasks in computational
-biology. Concerning this a wide number of heuristic algorithms have been proposed
-to find optimal alignment. Among these heuristic algorithms are genetic
-algorithms (GA). The GA has mainly two major weaknesses: it is time consuming and
-can cause local minima. One of the significant aspects in the GA process in MSA
-is to maximize the similarities between sequences by adding and shuffling the
-gaps of Solution Coding (SC). Several ways for SC have been introduced. One of
-them is the Permutation Coding (PC). We propose a hybrid algorithm based on
-genetic algorithms (GAs) with a PC and 2-opt algorithm. The PC helps to code the 
-MSA solution which maximizes the gain of resources, reliability and diversity of 
-GA. The use of the PC opens the area by applying all functions over permutations 
-for MSA. Thus, we suggest an algorithm to calculate the scoring function for
-multiple alignments based on PC, which is used as fitness function. The time
-complexity of the GA is reduced by using this algorithm. Our GA is implemented
-with different selections strategies and different crossovers. The probability of
-crossover and mutation is set as one strategy. Relevant patents have been probed 
-in the topic.
-
-
+Genet algorithm with permut code for multipl sequenc align .
+Multipl sequenc align ( MSA ) is one of the topic of bio informat that ha serious been research .
+It is known as NP - complet problem .
+It is also consid as one of the most import and daunt task in comput biolog .
+Concern thi a wide number of heurist algorithm have been propos to find optim align .
+Among these heurist algorithm are genet algorithm ( GA ).
+The GA ha mainli two major weak : it is time consum and can caus local minima .
+One of the signific aspect in the GA process in MSA is to maxim the similar between sequenc by ad and shuffl the gap of Solut Code ( SC ).
+Sever way for SC have been introduc . One of them is the Permut Code ( PC ).
+We propos a hybrid algorithm base on genet algorithm ( GA ) with a PC and 2 - opt algorithm .
+The PC help to code the MSA solut which maxim the gain of resourc , reliabl and divers of GA .
+The use of the PC open the area by appli all function over permut for MSA .
+Thu , we suggest an algorithm to calcul the score function for multipl align base on PC , which is use as fit function .
+The time complex of the GA is reduc by use thi algorithm .
+Our GA is implement with differ select strategi and differ crossov .
+The probabl of crossov and mutat is set as one strategi .
+Relev patent have been probe in the topic .

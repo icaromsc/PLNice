@@ -1,14 +1,1 @@
-A novel partial sequence alignment tool for finding large deletions.
-
-Finding large deletions in genome sequences has become increasingly more useful
-in bioinformatics, such as in clinical research and diagnosis. Although there are
-a number of publically available next generation sequencing mapping and sequence 
-alignment programs, these software packages do not correctly align fragments
-containing deletions larger than one kb. We present a fast alignment software
-package, BinaryPartialAlign, that can be used by wet lab scientists to find long 
-structural variations in their experiments. For BinaryPartialAlign, we make use
-of the Smith-Waterman (SW) algorithm with a binary-search-based approach for
-alignment with large gaps that we called partial alignment. BinaryPartialAlign
-implementation is compared with other straight-forward applications of SW.
-Simulation results on mtDNA fragments demonstrate the effectiveness (runtime and 
-accuracy) of the proposed method.
+A novel partial sequenc align tool for find larg delet . Find larg delet in genom sequenc ha becom increasingli more use in bioinformat , such as in clinic research and diagnosi . Although there are a number of public avail next gener sequenc map and sequenc align program , these softwar packag do not correctli align fragment contain delet larger than one kb . We present a fast align softwar packag , BinaryPartialAlign , that can be use by wet lab scientist to find long structur variat in their experi . For BinaryPartialAlign , we make use of the Smith - Waterman ( SW ) algorithm with a binari - search - base approach for align with larg gap that we call partial align . BinaryPartialAlign implement is compar with other straight - forward applic of SW . Simul result on mtDNA fragment demonstr the effect ( runtim and accuraci ) of the propos method .

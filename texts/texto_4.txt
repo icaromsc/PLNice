@@ -1,11 +1,6 @@
-PASTA: Ultra-Large Multiple Sequence Alignment for Nucleotide and Amino-Acid Sequences.
-
-We introduce PASTA, a new multiple sequence alignment algorithm. PASTA uses a new
-technique to produce an alignment given a guide tree that enables it to be both
-highly scalable and very accurate. We present a study on biological and simulated
-data with up to 200,000 sequences, showing that PASTA produces highly accurate
-alignments, improving on the accuracy and scalability of the leading alignment
-methods (including SATé). We also show that trees estimated on PASTA alignments
-are highly accurate--slightly better than SATé trees, but with substantial
-improvements relative to other methods. Finally, PASTA is faster than SATé,
-highly parallelizable, and requires relatively little memory.
+PASTA : Ultra - Larg Multipl Sequenc Align for Nucleotid and Amino - Acid Sequenc .
+We introduc PASTA , a new multipl sequenc align algorithm .
+PASTA use a new techniqu to produc an align given a guid tree that enabl it to be both highli scalabl and veri accur .
+We present a studi on biolog and simul data with up to 200 , 000 sequenc , show that PASTA produc highli accur align , improv on the accuraci and scalabl of the lead align method ( includ SATA ).
+We also show that tree estim on PASTA align are highli accur -- slightli better than SATA tree , but with substanti improv rel to other method .
+Final , PASTA is faster than SATA , highli paralleliz , and requir rel littl memori .

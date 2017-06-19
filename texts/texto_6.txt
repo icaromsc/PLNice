@@ -1,20 +1,9 @@
-Phylogeny-aware alignment with PRANK.
-
-Evolutionary analyses require sequence alignments that correctly represent
-evolutionary homology. Evolutionary and structural homology are not the same and 
-sequence alignments generated with methods designed for structural matching can
-be seriously misleading in comparative and phylogenetic analyses. The
-phylogeny-aware alignment algorithm implemented in the program PRANK has been
-shown to produce good alignments for evolutionary inferences. Unlike other
-alignment programs, PRANK makes use of phylogenetic information to distinguish
-alignment gaps caused by insertions or deletions and, thereafter, handles the two
-types of events differently. As a by-product of the correct handling of
-insertions and deletions, PRANK can provide the inferred ancestral sequences as a
-part of the output and mark the alignment gaps differently depending on their
-origin in insertion or deletion events. As the algorithm infers the evolutionary 
-history of the sequences, PRANK can be sensitive to errors in the guide phylogeny
-and violations on the underlying assumptions about the origin and patterns of
-gaps. These issues are discussed in detail and practical advice for the use of
-PRANK in evolutionary analysis is provided. The PRANK software and other methods 
-discussed here can be found from the program home page at
-http://code.google.com/p/prank-msa/.
+Phylogeni - awar align with PRANK .
+Evolutionari analys requir sequenc align that correctli repres evolutionari homolog .
+Evolutionari and structur homolog are not the same and sequenc align gener with method design for structur match can be serious mislead in compar and phylogenet analys .
+The phylogeni - awar align algorithm implement in the program PRANK ha been shown to produc good align for evolutionari infer .
+Unlik other align program , PRANK make use of phylogenet inform to distinguish align gap caus by insert or delet and , thereaft , handl the two type of event differ .
+As a by - product of the correct handl of insert and delet , PRANK can provid the infer ancestr sequenc as a part of the output and mark the align gap differ depend on their origin in insert or delet event .
+As the algorithm infer the evolutionari histori of the sequenc , PRANK can be sensit to error in the guid phylogeni and violat on the underli assumpt about the origin and pattern of gap .
+These issu are discuss in detail and practic advic for the use of PRANK in evolutionari analysi is provid .
+The PRANK softwar and other method discuss here can be found from the program home page at http :// code . googl . com / p / prank - msa /.

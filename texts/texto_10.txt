@@ -1,12 +1,1 @@
-ABS: Sequence alignment by scanning.
-
-Sequence alignment is an essential tool in almost any computational biology
-research. It processes large database sequences and considered to be high
-consumers of computation time. Heuristic algorithms are used to get approximate
-but fast results. We introduce fast alignment algorithm, called 'Alignment By
-Scanning' (ABS), to provide an approximate alignment of two DNA sequences. We
-compare our algorithm with the well-known alignment algorithms, the 'FASTA'
-(which is heuristic) and the 'Needleman-Wunsch' (which is optimal). The proposed 
-algorithm achieves up to 76% enhancement in alignment score when it is compared
-with the FASTA Algorithm. The evaluations are conducted using different lengths
-of DNA sequences.
+AB : Sequenc align by scan . Sequenc align is an essenti tool in almost ani comput biolog research . It process larg databas sequenc and consid to be high consum of comput time . Heurist algorithm are use to get approxim but fast result . We introduc fast align algorithm , call ' Align By Scan ' ( AB ), to provid an approxim align of two DNA sequenc . We compar our algorithm with the well - known align algorithm , the ' FASTA ' ( which is heurist ) and the ' Needleman - Wunsch ' ( which is optim ). The propos algorithm achiev up to 76 % enhanc in align score when it is compar with the FASTA Algorithm . The evalu are conduct use differ length of DNA sequenc .

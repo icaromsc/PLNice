@@ -1,13 +1,1 @@
-MSuPDA: A Memory Efficient Algorithm for Sequence Alignment.
-
-Space complexity is a million dollar question in DNA sequence alignments. In this
-regard, memory saving under pushdown automata can help to reduce the occupied
-spaces in computer memory. Our proposed process is that anchor seed (AS) will be 
-selected from given data set of nucleotide base pairs for local sequence
-alignment. Quick splitting techniques will separate the AS from all the DNA
-genome segments. Selected AS will be placed to pushdown automata's (PDA) input
-unit. Whole DNA genome segments will be placed into PDA's stack. AS from input
-unit will be matched with the DNA genome segments from stack of PDA. Match,
-mismatch and indel of nucleotides will be popped from the stack under the control
-unit of pushdown automata. During the POP operation on stack, it will free the
-memory cell occupied by the nucleotide base pair.
+MSuPDA : A Memori Effici Algorithm for Sequenc Align . Space complex is a million dollar question in DNA sequenc align . In thi regard , memori save under pushdown automata can help to reduc the occupi space in comput memori . Our propos process is that anchor seed ( AS ) will be select from given data set of nucleotid base pair for local sequenc align . Quick split techniqu will separ the AS from all the DNA genom segment . Select AS will be place to pushdown automata ' s ( PDA ) input unit . Whole DNA genom segment will be place into PDA ' s stack . AS from input unit will be match with the DNA genom segment from stack of PDA . Match , mismatch and indel of nucleotid will be pop from the stack under the control unit of pushdown automata . Dure the POP oper on stack , it will free the memori cell occupi by the nucleotid base pair .

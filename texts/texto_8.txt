@@ -1,29 +1,14 @@
-SeqTools: visual tools for manual analysis of sequence alignments.
-
-BACKGROUND: Manual annotation is essential to create high-quality reference
-alignments and annotation. Annotators need to be able to view sequence alignments
-in detail. The SeqTools package provides three tools for viewing different types 
-of sequence alignment: Blixem is a many-to-one browser of pairwise alignments,
-displaying multiple match sequences aligned against a single reference sequence; 
-Dotter provides a graphical dot-plot view of a single pairwise alignment; and
-Belvu is a multiple sequence alignment viewer, editor, and phylogenetic tool.
-These tools were originally part of the AceDB genome database system but have
-been completely rewritten to make them generally available as a standalone
-package of greatly improved function.
-FINDINGS: Blixem is used by annotators to give a detailed view of the evidence
-for particular gene models. Blixem displays the gene model positions and the
-match sequences aligned against the genomic reference sequence. Annotators use
-this for many reasons, including to check the quality of an alignment, to find
-missing/misaligned sequence and to identify splice sites and polyA sites and
-signals. Dotter is used to give a dot-plot representation of a particular
-pairwise alignment. This is used to identify sequence that is not represented (or
-is misrepresented) and to quickly compare annotated gene models with
-transcriptional and protein evidence that putatively supports them. Belvu is used
-to analyse conservation patterns in multiple sequence alignments and to perform a
-combination of manual and automatic processing of the alignment. High-quality
-reference alignments are essential if they are to be used as a starting point for
-further automatic alignment generation.
-CONCLUSIONS: While there are many different alignment tools available, the
-SeqTools package provides unique functionality that annotators have found to be
-essential for analysing sequence alignments as part of the manual annotation
-process.
+SeqTool : visual tool for manual analysi of sequenc align .
+BACKGROUND : Manual annot is essenti to creat high - qualiti refer align and annot .
+Annot need to be abl to view sequenc align in detail .
+The SeqTool packag provid three tool for view differ type of sequenc align : Blixem is a mani - to - one browser of pairwis align , display multipl match sequenc align against a singl refer sequenc ;
+Dotter provid a graphic dot - plot view of a singl pairwis align ; and Belvu is a multipl sequenc align viewer , editor , and phylogenet tool .
+These tool were origin part of the AceDB genom databas system but have been complet rewritten to make them gener avail as a standalon packag of greatli improv function .
+FIND : Blixem is use by annot to give a detail view of the evid for particular gene model .
+Blixem display the gene model posit and the match sequenc align against the genom refer sequenc .
+Annot use thi for mani reason , includ to check the qualiti of an align , to find miss / misalign sequenc and to identifi splice site and polyA site and signal .
+Dotter is use to give a dot - plot represent of a particular pairwis align .
+Thi is use to identifi sequenc that is not repres ( or is misrepres ) and to quickli compar annot gene model with transcript and protein evid that put support them .
+Belvu is use to analys conserv pattern in multipl sequenc align and to perform a combin of manual and automat process of the align .
+High - qualiti refer align are essenti if they are to be use as a start point for further automat align gener .
+CONCLUS : While there are mani differ align tool avail , the SeqTool packag provid uniqu function that annot have found to be essenti for analys sequenc align as part of the manual annot process .

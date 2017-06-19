@@ -22,7 +22,7 @@ def openFiles(listFiles):
 
 
 def getStopWords():
-    file = open("/home/infobio/PycharmProjects/PLNice/english_stop_words.txt", "r")
+    file = open(getcwd()+"/english_stop_words.txt", "r")
     words=file.read().split()
     return words
 
@@ -33,7 +33,7 @@ def removeStopWords(file,stopwords):
     file=file.split()
     for f in file:
         if f.lower() not in stopwords:
-            removed.append(f)
+            removed.append(f.lower())
     return removed
 
 def removeJunk(file):
@@ -46,6 +46,42 @@ def removeJunk(file):
     file = file.replace(";", "")
     return file
 
+
+def createTF(terms,documents):
+    tf = []
+    for t in terms:
+        documentFreq = []
+        for d in documents:
+            counter = d.count(t)
+            documentFreq.append(counter)
+        print t, ": ", documentFreq, 'ranq:', sum(documentFreq)
+        temp=[]
+        temp.append(t)
+        temp.append(sum(documentFreq))
+        tf.append(temp)
+        # print 'termo ', 'align', ' no doc ', i, 'freq:', counter
+    return tf
+
+
+def myTF(terms,documents):
+    tf = []
+    for t in terms:
+        documentFreq = []
+        for d in documents:
+            counter = d.count(t)
+            documentFreq.append(counter)
+        #print t, ": ", documentFreq, 'ranq:', sum(documentFreq)
+        temp = []
+        temp.append(t)
+        temp.append(documentFreq)
+        tf.append(temp)
+        # print 'termo ', 'align', ' no doc ', i, 'freq:', counter
+    return tf
+
+
+def viewMatrix(lista):
+    for l in lista:
+        print l
 
 
 #inicializacao
@@ -68,7 +104,7 @@ for text in texts:
     terms.update(set(processed))
     print "n palavras txt original:", len(text)
     print "n palavras txt processado:", len(processed)
-    processeds.append(processeds)
+    processeds.append(processed)
 
 
 
@@ -77,6 +113,16 @@ print "*\n*\ntexts processed",len(processeds)
 print "*\n*\nn terms:",len(terms)
 print "terms:\n*\n",terms
 print "freq terms:\n*\n",freqTerms[0]
+#createTF(terms,processeds)
+tf=myTF(terms,processeds)
+ranq_tf = createTF(terms,processeds)
+tf=sorted(tf, key=lambda x: x[1], reverse=True)
+viewMatrix(tf)
+v=sorted(ranq_tf, key=lambda x: x[1], reverse=True)
+viewMatrix(v)
+#from operator import itemgetter
+#print sorted(.items(), key=itemgetter(1))
+
 
 
 

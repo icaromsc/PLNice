@@ -1,16 +1,8 @@
-﻿A knowledge-based multiple-sequence alignment algorithm.
-
-A common and cost-effective mechanism to identify the functionalities,
-structures, or relationships between species is multiple-sequence alignment, in
-which DNA/RNA/protein sequences are arranged and aligned so that similarities
-between sequences are clustered together. Correctly identifying and aligning
-these sequence biological similarities help from unwinding the mystery of species
-evolution to drug design. We present our knowledge-based multiple sequence
-alignment (KB-MSA) technique that utilizes the existing knowledge databases such 
-as SWISSPROT, GENBANK, or HOMSTRAD to provide a more realistic and reliable
-sequence alignment. We also provide a modified version of this algorithm (CB-MSA)
-that utilizes the sequence consistency information when sequence knowledge
-databases are not available. Our benchmark tests on BAliBASE, PREFAB, HOMSTRAD,
-and SABMARK references show accuracy improvements up to 10 percent on twilight
-data sets against many leading alignment tools such as ISPALIGN, PADT, CLUSTALW, 
-MAFFT, PROBCONS, and T-COFFEE.
+﻿A knowledg - base multipl - sequenc align algorithm .
+A common and cost - effect mechan to identifi the function , structur , or relationship between speci is multipl
+- sequenc align , in which DNA / RNA / protein sequenc are arrang and align so that similar between sequenc are cluster togeth .
+Correctli identifi and align these sequenc biolog similar help from unwind the mysteri of speci evolut to drug design .
+We present our knowledg - base multipl sequenc align ( KB - MSA ) techniqu that util the exist knowledg databas such as SWISSPROT ,
+GENBANK , or HOMSTRAD to provid a more realist and reliabl sequenc align .
+We also provid a modifi version of thi algorithm ( CB - MSA ) that util the sequenc consist inform when sequenc knowledg databas are not avail .
+Our benchmark test on BAliBAS , PREFAB , HOMSTRAD , and SABMARK refer show accuraci improv up to 10 percent on twilight data set against mani lead align tool such as ISPALIGN , PADT , CLUSTALW , MAFFT , PROBCON , and T - COFFE .
